@@ -1,7 +1,7 @@
 # terraform-aws-k8s-argocd-cluster-secret
 
 Create AWS Secrets for k8s cluster config (to be used with ArgoCD) and
-[cluster secrest](https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/#clusters)
+[cluster secrets](https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/#clusters)
 
 Preferably used together with the [terraform-aws-k8s](https://github.com/opzkit/terraform-aws-k8s)
 module!
@@ -24,7 +24,7 @@ module "k8s_cluster_config" {
 ```
 This will create a secret (in the AWS account passed as a `provider`) named `argocd/clusters/test-data`.
 
-Then for example an [ExternalSecret](https://github.com/external-secrets/kubernetes-external-secrets) can be
+Then for example an [Kubernetes ExternalSecret](https://github.com/external-secrets/kubernetes-external-secrets) can be
 used to create an ArgoCD cluster secret:
 
 ```yaml
@@ -56,3 +56,43 @@ spec:
           }
         }
 ```
+
+Using [ExternalSecret](https://github.com/external-secrets/external-secrets):
+
+```yaml
+
+apiVersion: external-secrets.io/v1alpha1
+kind: ExternalSecret
+metadata:
+  name: test-cluster
+  namespace: argocd
+  labels:
+    argocd.argoproj.io/secret-type: cluster
+spec:
+  refreshInterval: 30s
+  secretStoreRef:
+    name: external-secrets
+    kind: ClusterSecretStore
+  target:
+    creationPolicy: Owner
+    template:
+      data:
+        name: "{{ (.data | fromJSON).name }}"
+        server: "{{ (.data | fromJSON).host }}"
+        config: |
+          {
+            "tlsClientConfig": {
+              "insecure": false,
+              "caData": "{{ (.data | fromJSON).cluster_ca_certificate }}"
+            },
+            "awsAuthConfig": {
+              "clusterName": "{{ (.data | fromJSON).name }}",
+              "roleARN": "{{ (.data | fromJSON).role_arn }}"
+            }
+          }
+  data:
+    - secretKey: data
+      remoteRef:
+        key: argocd/clusters/test-cluster
+```
+
