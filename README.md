@@ -95,4 +95,3 @@ spec:
       remoteRef:
         key: argocd/clusters/test-cluster
 ```
-
