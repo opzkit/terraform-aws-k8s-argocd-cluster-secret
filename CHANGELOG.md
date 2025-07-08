@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.2.0...v0.2.1) (2025-07-08)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.5 ([#23](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/23)) ([c98d1a9](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/c98d1a941fcf5fde177c201bfcd759428a3806bc))
+
 ## [0.2.0](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.1.0...v0.2.0) (2025-06-19)
 
 
