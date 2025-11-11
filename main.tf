@@ -13,5 +13,6 @@ resource "aws_secretsmanager_secret_version" "cluster_secret_value" {
     host                   = data.kops_kube_config.kube_config.server
     name                   = var.cluster_name
     role_arn               = var.role_arn
+    argocd_cluster_secret  = var.argocd_cluster_secret
   })
 }
