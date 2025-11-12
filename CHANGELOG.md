@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.4.0...v0.4.1) (2025-11-12)
+
+
+### Miscellaneous Chores
+
+* **workflow:** enable auto-merge with GitHub App token ([#80](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/80)) ([127ed11](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/127ed11a563eccdf44ffff8fb28b12477686cd3d))
+
 ## [0.4.0](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.3.0...v0.4.0) (2025-11-11)
 
 
