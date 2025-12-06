@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.4.1](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.4.0...v0.4.1) (2025-12-06)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5.0.1 ([#82](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/82)) ([55d187e](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/55d187e713f7c93bc266ff2512d938b41c74b988))
+* **deps:** update actions/checkout action to v6 ([#85](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/85)) ([462c792](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/462c792d4c245822771cdd13e3eb2e68c089cce6))
+* **deps:** update actions/checkout action to v6.0.1 ([#90](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/90)) ([79cd2c0](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/79cd2c0e62b1cd648b31d4601ebf40fcfdbcde38))
+* **deps:** update actions/checkout digest to 8e8c483 ([#89](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/89)) ([c5a0934](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/c5a093499708948917e3ac0f94ddf952e31dbf59))
+* **deps:** update actions/checkout digest to 93cb6ef ([#83](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/83)) ([e94a3c7](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/e94a3c7e199e7ddd127827a7b8999d25f55401b0))
+* **deps:** update actions/create-github-app-token digest to 29824e6 ([#91](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/91)) ([8629e9b](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/8629e9b6462102e404e067b6db3974a7d98ce4ba))
+* **deps:** update actions/create-github-app-token digest to 7e473ef ([#86](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/86)) ([7dc9bf9](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/7dc9bf9e7d55c4efbd1b1b694a4c4603745ba48d))
+* **deps:** update actions/setup-python action to v6.1.0 ([#87](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/87)) ([e94acb9](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/e94acb9770f2d2099a23e425e38efec5fa555fcf))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.104.0 ([#84](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/84)) ([79a626f](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/79a626ff42f16710ce7d63f04d25cb888370e58e))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.27.0 ([#88](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/88)) ([f7c5caf](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/f7c5cafea56d32b3041c781277a2f75e131e9412))
+* **workflow:** enable auto-merge with GitHub App token ([#80](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/80)) ([127ed11](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/127ed11a563eccdf44ffff8fb28b12477686cd3d))
+
 ## [0.4.0](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.3.0...v0.4.0) (2025-11-11)
 
 
