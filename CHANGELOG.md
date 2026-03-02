@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.4.2](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.4.1...v0.4.2) (2026-03-02)
+
+
+### Miscellaneous Chores
+
+* **deps:** update hashicorp/setup-terraform action to v4 ([#109](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/109)) ([52f1678](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/52f1678b565f5e3a5ee4b2b9cb36831716996693))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#107](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/107)) ([51265c8](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/51265c856c3321757107bd876788c1658eb49479))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.46.6 ([#110](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/110)) ([9bbdaf7](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/9bbdaf7bb71ad93587c9baffd5cfcc20b31cd8ac))
+
 ## [0.4.1](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.4.0...v0.4.1) (2026-02-17)
 
 
