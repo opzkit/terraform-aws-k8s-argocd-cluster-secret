@@ -4,6 +4,7 @@ data "kops_kube_config" "kube_config" {
 
 resource "aws_secretsmanager_secret" "cluster_secret" {
   name = "argocd/clusters/${var.cluster_name}"
+  tags = var.tags
 }
 
 resource "aws_secretsmanager_secret_version" "cluster_secret_value" {
