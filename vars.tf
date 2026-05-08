@@ -20,3 +20,14 @@ variable "tags" {
   default     = {}
   description = "tags to apply to the secret in AWS SecretsManager"
 }
+
+variable "recovery_window_in_days" {
+  type        = number
+  default     = 30
+  description = "Number of days AWS Secrets Manager waits before permanently deleting the secret. Set to 0 to delete immediately (useful for ephemeral clusters that get rebuilt frequently). Otherwise must be between 7 and 30."
+
+  validation {
+    condition     = var.recovery_window_in_days == 0 || (var.recovery_window_in_days >= 7 && var.recovery_window_in_days <= 30)
+    error_message = "recovery_window_in_days must be 0 or between 7 and 30."
+  }
+}
