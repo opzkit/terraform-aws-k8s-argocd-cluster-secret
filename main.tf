@@ -3,8 +3,9 @@ data "kops_kube_config" "kube_config" {
 }
 
 resource "aws_secretsmanager_secret" "cluster_secret" {
-  name = "argocd/clusters/${var.cluster_name}"
-  tags = var.tags
+  name                    = "argocd/clusters/${var.cluster_name}"
+  recovery_window_in_days = var.recovery_window_in_days
+  tags                    = var.tags
 }
 
 resource "aws_secretsmanager_secret_version" "cluster_secret_value" {
