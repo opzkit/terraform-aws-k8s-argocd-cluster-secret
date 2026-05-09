@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.6.0](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.5.0...v0.6.0) (2026-05-09)
+
+
+### Features
+
+* make secret recovery window configurable ([#129](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/129)) ([4563692](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/45636928d04210af2ced24643425c698515533b3))
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.25.0 ([#126](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/126)) ([1ecc781](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/1ecc78189dfbef3df3e2a43233753df710975d88))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.141.2 ([#128](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/128)) ([b66474c](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/b66474cf3d7e71104aa287bc4310cb9e6e5e6e4b))
+
 ## [0.5.0](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.4.1...v0.5.0) (2026-04-30)
 
 
