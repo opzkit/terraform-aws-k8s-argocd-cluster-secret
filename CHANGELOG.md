@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.6.1](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.6.0...v0.6.1) (2026-08-25)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v6.0.3 ([#136](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/136)) ([b92eb2a](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/b92eb2a3fdd3f9534017c6f6718eb6362c3ac2bb))
+* **deps:** update actions/checkout action to v7 ([#137](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/137)) ([3781a4d](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/3781a4d6e8cbee9b9e128f3f1bae963ba3b521b5))
+* **deps:** update actions/checkout digest to 3d3c42e ([#144](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/144)) ([c1cc486](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/c1cc486f9953fbfda3f129639717f75405857c6a))
+* **deps:** update actions/checkout digest to df4cb1c ([#135](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/135)) ([36ef5af](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/36ef5afef66c3fc0643b12f2c72e704e9562a4cc))
+* **deps:** update actions/create-github-app-token digest to bcd2ba4 ([#130](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/130)) ([ace462e](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/ace462e6e66dabac000f368cc0b1a8dd45c29430))
+* **deps:** update actions/setup-python action to v6.3.0 ([#141](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/141)) ([99aeaf7](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/99aeaf71e0f365ee8b19f81ae869347b2cb9c048))
+* **deps:** update actions/setup-python action to v7 ([#145](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/145)) ([4029543](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/4029543644f278d3af8bcbdf4a70907dc1776f05))
+* **deps:** update hashicorp/setup-terraform action to v4.0.1 ([#132](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/132)) ([f220edc](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/f220edca0c4d29d41480e4fc27fb7e9da05af531))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.26.0 ([#142](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/142)) ([034ceea](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/034ceea690021662bca098b9a9be022835942399))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.106.0 ([#134](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/134)) ([2638019](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/26380199cdcfef85554599803692e791e60672fe))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.107.0 ([#138](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/138)) ([15adb61](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/15adb61a4f9a79738f94a47c13913013178c4bd9))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.108.0 ([#140](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/140)) ([432f913](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/432f9133e025b78dc91614a511dcb52fd6b91c3c))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.108.1 ([#146](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/146)) ([8c9bbcf](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/8c9bbcffe9f99558b923bc6ab1edc839422cf541))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.109.0 ([#149](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/149)) ([0e45a74](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/0e45a74b826834b9a74a0a5fbfccb7826c0f1446))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.150.0 ([#133](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/133)) ([9f38c2e](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/9f38c2e6f989351fb2f471900a22ec6d5c3f5b2b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.227.0 ([#139](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/139)) ([e52c246](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/e52c2463b4e1dea399970ce583c330c60c83581e))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.288.0 ([#147](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/147)) ([2932afd](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/2932afd977a75829aae6d2ea47ac16e46b26f36b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v44 ([#148](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/148)) ([e504254](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/e504254f3acb2caa75bf39e51f1a882d3c89d953))
+* **deps:** update terraform-linters/setup-tflint action to v6.3.0 ([#143](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/issues/143)) ([921d4cb](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/commit/921d4cb1ef5bd2aa508d3d3a34ab0d266c4bf1e3))
+
 ## [0.6.0](https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret/compare/v0.5.0...v0.6.0) (2026-05-09)
 
 
